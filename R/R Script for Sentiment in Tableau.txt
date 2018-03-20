@@ -1,0 +1,6 @@
+SCRIPT_STR("
+    # Using Sentiment Library
+
+    library(sentiment)
+
+    classify_polarity(.arg1, algorithm='bayes') [, 4]", ATTR([Product Comments]))

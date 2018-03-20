@@ -1,0 +1,1 @@
+tabcmd runschedule "Customers Refresh" --server http://ram2012svr:8000 --username administrator

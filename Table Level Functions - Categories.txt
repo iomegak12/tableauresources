@@ -1,0 +1,19 @@
+Meta-table Functions
+	Index, First, Last, Size
+
+Lookup and Previous Value Functions
+
+Running Functions
+	Running_Avg, Running_Count,
+	Running_Minimum, Running_Maximum,
+	Running_Sum
+
+Window Functions
+	Window_Sum, Window_Avg,
+	Window_Min, Window_Max
+
+Ranking Functions Rank()
+
+R Script Functions
+
+Total

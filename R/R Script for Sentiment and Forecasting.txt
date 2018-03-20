@@ -1,0 +1,21 @@
+install.packages('devtools')
+require(devtools)
+install_url('http://cran.r-project.org/src/contrib/Archive/sentiment/sentiment_0.2.tar.gz')
+require(sentiment)
+ls('packages:sentiment')
+some_text <- c('very happy with contents', 'good product', 'not at all happy!', 'not bad!')
+classify_polarity(some_text, algorithm='bayes')
+classify_emotion(some_text, alrogithm='bayes', verbose=TRUE)
+
+install.packages('forecast')
+
+SCRIPT_REAL("
+	library(forecast);
+	
+	l<-length(.arg1);
+	u<-.arg1[1:(l-.arg2[1])];
+	n<-length(u);
+	
+	jjearnts <- ts(u,deltat=1/4,start=c(2014,0));
+	fcast <- forecast(jjearnts, h=.arg2[1]);
+	append(u,fcast$mean, after = n)", SUM([Sale Amount]), 3)

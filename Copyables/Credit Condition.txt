@@ -1,0 +1,5 @@
+IF [Credit] >= 20000 AND [Credit] < 25000 THEN "Bronze"
+ELSEIF [Credit] >= 25000 AND [Credit] < 30000 THEN "Silver"
+ELSEIF [Credit] >= 30000 AND [Credit] < 35000 THEN "Gold"
+ELSE "Platinum"
+END

@@ -1,0 +1,4 @@
+sudo yum install hadoop-hive hadoop-hive-server hadoop-hive-metastore
+
+services -> start hive server
+

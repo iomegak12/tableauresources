@@ -1,0 +1,21 @@
+SCRIPT_INT("
+    ## Sets the seed
+
+    set.seed( .arg6[1] )
+
+    ## Studentizes the variables
+
+    age <- ( .arg1 - mean(.arg1) ) / sd(.arg1)
+    car <- ( .arg2 - mean(.arg2) ) / sd(.arg2)
+    chi <- ( .arg3 - mean(.arg3) ) / sd(.arg3)
+    inc <- ( .arg4 - mean(.arg4) ) / sd(.arg4)
+    dat <- cbind(age, car, chi, inc)
+
+    num <- .arg5[1]
+
+    ## Creates the clusters
+
+    kmeans(dat, num)$cluster
+",     
+
+AVG( [Age] ), AVG( [Number Cars Owned] ), AVG( [Total Children] ), AVG( [Yearly Income] ), 4, 500)

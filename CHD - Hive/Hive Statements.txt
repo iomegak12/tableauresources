@@ -1,0 +1,17 @@
+create table customers (
+	cid INT,
+	cname STRING,
+	address STRING,
+	credit INT,
+	status BOOLEAN )
+row format delimited
+fields terminated by ','
+stored as textfile
+
+load data local inpath 'customers.csv'
+	overwrite into table customers;
+
+describe customers;
+
+select * from customers;
+

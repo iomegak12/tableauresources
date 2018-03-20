@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<License xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:simba-com:SimbaLicenseSchema">
+  <Info version="1">
+    <ProductSKU>1084</ProductSKU>
+    <Product>Simba MongoDB ODBC Driver</Product>
+    <Platform>Windows</Platform>
+    <ProductVersion>2</ProductVersion>
+    <LicenseType>Evaluation</LicenseType>
+    <LicenseCount>1</LicenseCount>
+    <CustomerID>jd.ramkumar@gmail.com</CustomerID>
+    <Timestamp>2016-04-06T14:57:23.2022548-07:00</Timestamp>
+    <Expiry>2016-05-06</Expiry>
+  </Info>
+  <Key>auicAE8AEAChAN0ADwAEAOc4rAoXrT80Ldqt+g1sufXfDu5jYy8YlqN/z+5cOK3xkq7ex6zYNQBbTiHaImONfEZ3ojqGFxWigx0b5JWvtBb8osWeh7Wla3YKma7QJdPHGSyoqO4EXHCQWkHRbkHlXPLj9b8mHGOqrhjnyIREneyQ0v78VGF3c+c4EHmQLvCXF/eieO3vNLccEMVIDKTd30e8upi1eR8lsn3fEi1IQwSO/Hf9y027wGqP6JAkc7K+NxCVVeb46Fewcf4X4Qcifoq5P0oDktK6WoTPskFtJZP+bmto12mfiVHNn0r5CAhTv99Fq4lTv5LlHn25YE5GAzy2RrutjvF8</Key>
+</License>
