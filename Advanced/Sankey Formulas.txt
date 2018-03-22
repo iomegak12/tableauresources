@@ -1,0 +1,20 @@
+Sigmoid:
+
+1 / (1 + EXP(1) ^ -[T])
+
+Curve:
+
+[Previous Rank] + (([New Rank] - [Previous Rank]) * [Sigmoid])
+
+Color:
+
+if [Curve] < 2 THEN 1
+ELSEIF [Curve] < 4 THEN 2
+ELSEIF [Curve] < 6 THEN 3
+ELSEIF [Curve] < 7 THEN 4
+ELSE 5 END
+
+Rank:
+
+ABS([New Rank] - [Previous Rank])
+
