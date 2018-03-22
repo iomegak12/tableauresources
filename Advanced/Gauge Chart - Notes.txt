@@ -1,0 +1,26 @@
+X Co-ordinate
+IF ATTR([Row Reference]) ='Dial' 
+THEN 0 
+ELSE (SIN(((([Sales / Budget %]-1)*90)*PI())/180)) 
+END
+
+Y Coordinate
+IF ATTR([Row Reference]) ='Dial' 
+THEN 0 
+ELSE (COS(((([Sales / Budget %]-1)*90)*PI())/180)) 
+END
+
+Sales / Budget %
+SUM([Sales]) / SUM([Budget Sales])
+
+Map Images
+	X - -1.15 to 1.15
+	Y - 0.15 to 1.15
+
+X Coordinate to Columns
+Y Coordinate to Rows
+
+Row Preference to Size
+Row Preference to Path
+
+
